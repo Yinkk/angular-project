@@ -1,0 +1,8 @@
+<div>
+    <h2>{{ lab4 }}</h2>
+    <div *ngFor="let item of items">
+        <p class = "number-even" *ngIf = "item % 2 === 0">{{ item }}</p>
+        <p class = "number-odd" *ngIf = "item % 2 !== 0">{{ item }}</p>
+    </div>
+    
+</div>
